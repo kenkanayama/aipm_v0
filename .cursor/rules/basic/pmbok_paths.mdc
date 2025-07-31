@@ -1,0 +1,24 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# パス変数定義
+dirs:
+  flow: "Flow"
+  stock: "Stock"
+  archived: "Archived"
+  rules: ".cursor/rules"
+  basic_rules: ".cursor/rules/basic"
+
+patterns:
+  flow_date: "YYYYMM/YYYY-MM-DD"
+  project_docs: "documents"
+  project_phases:
+    - "1_initiating"
+    - "2_discovery"
+    - "2_research"
+    - "3_planning"
+    - "4_executing"
+    - "5_monitoring"
+    - "6_closing"
